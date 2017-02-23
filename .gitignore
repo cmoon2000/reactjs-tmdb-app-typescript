@@ -1,0 +1,7 @@
+# Logs
+yarn.lock
+
+# Folder
+node_modules
+bower_components
+.sass-cache
