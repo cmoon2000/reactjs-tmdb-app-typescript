@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "app/scripts",
+		// 2 dòng dưới để target đc sang ES2015 thay vì es5
+		// "moduleResolution": "classic",
+		"lib": ["es6", "dom"],
+
+		// "listFiles": true,
+		"baseUrl": ".",
+		"noEmitOnError": true,
+		"jsx": "react",
+		"experimentalDecorators": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"removeComments": true,
+		"strictNullChecks": true
+	},
+	"include": [
+		"./app-typescript/**/*.ts",
+		"./app-typescript/**/*.tsx"
+	],
+	"exclude": [
+		"node_modules",
+		"bower_components"
+	],
+	"typeRoots": [
+    	"node_modules/@types"
+    ]
+}
